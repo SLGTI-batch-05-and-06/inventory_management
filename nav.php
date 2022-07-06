@@ -1,7 +1,7 @@
 <?php include_once('script.php');?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="img/logo.png" class="head" style= width:20% alt=""><h6 style=font-size:7px>Inventory Management System</h6></a>
+  <a class="navbar-brand" href="#"><img src="img/logo.png" class="head" style= width:20% alt=""><h6 style=font-size:9px>Inventory Management System</h6></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

@@ -39,6 +39,7 @@ if(isset($_POST['save']))
   if(mysqli_query($con,$sql))
   {
     echo "insert success";
+    echo("<meta http-equiv='refresh' content='3'>");
   }
   else
   {
@@ -144,7 +145,7 @@ if(isset($_GET['edit']))
            <td>',$row['Quantity'],'</td>
            <td>',$row['Date'],'</td>
            <td>
-              <a href="?edit=',$row['ID'],'"><img src="img/edit.png"></a> | <a href="?delete=',$row['ID'],'"><img src="img/delete.png"></a>
+              <a href="?edit=',$row['ID'],'" data-toggle="modal" data-target="#exampleModalCenter"><img src="img/edit.png"></a> | <a href="?delete=',$row['ID'],'"><img src="img/delete.png"></a>
            </td>
            </tr>
            ';
