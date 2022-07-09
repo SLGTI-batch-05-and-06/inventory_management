@@ -11,6 +11,7 @@ include_once('config.php');
 </head>
 <body>
 <?php include_once('navbar.php');?>
+<br>
 <!--content -->
 
 <!--content -->
